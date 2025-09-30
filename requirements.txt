@@ -1,0 +1,6 @@
+# requirements.txt
+streamlit
+pandas
+scikit-learn
+google-generativeai
+# Add any other libraries you might have imported (e.g., numpy, re, etc.)

@@ -1,0 +1,16 @@
+# .gitignore
+# Ignore Python build/virtual environment files
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+.idea/
+.vscode/
+
+# CRITICAL: Ignore your local secrets file!
+.streamlit/secrets.toml
+
+# Ignore large/temporary files
+*.zip
+*.log
