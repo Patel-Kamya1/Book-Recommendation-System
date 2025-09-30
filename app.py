@@ -178,12 +178,7 @@ def display_books_grid(books_to_display, cols_per_row=3):
     st.markdown(
         """
         <style>
-        .book-card {
-            background-color:#1e1e1e; padding:10px; border-radius:10px; text-align:center;
-            color:#fff; margin-bottom:20px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            transition: 0.3s; height: 100%; display: flex; flex-direction: column;
-            justify-content: space-between;
-        }
+      
         .book-card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5); }
         .book-title {font-weight:bold; font-size:16px; margin:5px 0 0 0; min-height: 40px;}
         .book-author {font-style:italic; font-size:14px; margin:0;}
@@ -262,4 +257,5 @@ with tab1:
 
 with tab2:
     # --- Chatbot Interface ---
+
     run_chatbot()
